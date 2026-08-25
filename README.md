@@ -138,4 +138,3 @@ GATE 1: Đạt — có actor (quản lý), object (báo cáo tuần theo phòng 
 7. [x] **Metric nào cũng có event để tính nó:** Toàn bộ metrics định nghĩa trong Phase 3 đều được nuôi bằng properties có trong bảng Tracking nhanh (VD: Edit Time cho Leading Indicator).
 
 **Kết luận cuối cùng:** Bài làm mạch lạc, không mắc các lỗi thiết kế kinh điển. Chuỗi logic giữ vững từ đầu đến cuối: `Dự án tổng hợp báo cáo` -> `Persona Quản lý` -> `Core Action: Duyệt/Xuất báo cáo tuần` -> `Cadence: Weekly` -> `Retention: Weekly` -> `NSM: Báo cáo xuất thành công ít sửa đổi` -> `Events: Đo đạc chính xác hành vi export`.
-- **Revision:** Không cần sửa đổi Core Action hay Cadence gốc, vì toàn bộ mạch logic đang khớp khít với nhau. Hoàn thành bài Lab!
